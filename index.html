@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Konwerter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="converter">
+  <h1>Konwerter długości</h1>
+  <input type="number" id="inputValue" placeholder="Wpisz wartość">
+  <select id="unit">
+    <option value="cm">Centymetry (cm) ➜ Cale (in)</option>
+    <option value="in">Cale (in) ➜ Centymetry (cm)</option>
+    <option value="km">Kilometry (km) ➜ Mile lądowe (mi)</option>
+    <option value="mi">Mile lądowe (mi) ➜ Kilometry (km)</option>
+  </select>
+  <button onclick="convert()">Konwertuj</button>
+  <button onclick="clearResults()">Wyczyść</button>
+  <ul id="results"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
