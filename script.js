@@ -21,14 +21,7 @@ function convert() {
   } else if (unit === 'in') {
     result = numericValue * 2.54;
     saveResult(numericValue + ' in = ' + result.toFixed(2) + ' cm');
-  } else if (unit === 'km') {
-    result = numericValue * 0.621371;
-    saveResult(numericValue + ' km = ' + result.toFixed(2) + ' mi');
-  } else if (unit === 'mi') {
-    result = numericValue * 1.60934;
-    saveResult(numericValue + ' mi = ' + result.toFixed(2) + ' km');
-  }
-
+  } 
   document.getElementById('inputValue').value = '';
 }
 
