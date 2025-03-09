@@ -1,3 +1,3 @@
 https://dawidmikula.github.io/converter/
 
-Aplikacja stworzona w celu nauki pisania przypadków testowych oraz zgłoszeń błędów.
+An application created to learn how to write test cases and bug reports.
